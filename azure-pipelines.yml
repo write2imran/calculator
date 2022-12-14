@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: coAgentPool
+  demands:
     agent.name -equals coAgent
 
 
